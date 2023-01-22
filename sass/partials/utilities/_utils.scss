@@ -1,0 +1,64 @@
+.text-danger {
+    color: var(--clr-danger);
+}
+.text-neutral-400 {
+    color: var(--clr-neutral-400);
+}
+
+.fs-s1 {
+    font-size: var(--s1);
+}
+
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+.bg-neutral-100 {
+    background-color: var(--clr-neutral-100);
+}
+.outline-dashed {
+    outline: var(--border-thick) dashed;
+}
+.padding-s1 {
+    padding: var(--s1);
+}
+.padding-s0 {
+    padding: var(--s0);
+}
+.padding-block-s1 {
+    padding-block: var(--s1);
+}
+.padding-block-s2 {
+    padding-block: var(--s2);
+}
+.padding-inline-s0 {
+    padding-inline: var(--s0);
+}
+.max-inline-25 {
+    max-inline-size: 25rem;
+}
+
+//simple layout utils
+
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.independent-scroll {
+    max-block-size: 100vh;
+    overflow-y: auto;
+}
+.stretch {
+    align-items: stretch;
+}
+.block-size-100 {
+    block-size: 100vh;
+}

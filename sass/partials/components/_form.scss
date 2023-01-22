@@ -1,0 +1,24 @@
+form label {
+  color: var(--clr-neutral-400);
+}
+
+input {
+  background: rgba(0, 0, 0, 0);
+  color: var(--body-clr);
+  border: var(--s-4) var(--clr-neutral-300) solid;
+  border-radius: var(--border-radius);
+  padding: var(--s-3);
+  outline-offset: var(--s-3);
+}
+
+input :focus,
+input:-webkit-autofill:focus {
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--clr-neutral-100) inset !important;
+  color: var(--body-clr) !important;
+}

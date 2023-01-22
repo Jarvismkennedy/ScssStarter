@@ -1,0 +1,9 @@
+.alert {
+  border-radius: var(--border-radius);
+  padding: var(--s0);
+  &[data-type="info"] {
+    border: var(--border-thin) solid var(--clr-info-border);
+    background-color: var(--clr-info);
+    color: var(--clr-neutral-600);
+  }
+}

@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--clr-brand-primary);
+  color: var(--clr-neutral-100);
+  border-radius: var(--border-radius);
+  padding-inline: var(--s1);
+  padding-block: var(--s-2);
+  border: none;
+  transition: transform 150ms;
+
+  &:hover,
+  &:focus {
+    outline: var(--clr-brand-accent);
+    box-shadow: var(--shadow-small);
+    transform: translateY(calc(-1 * var(--s-5)));
+    transition: transform 100ms;
+  }
+}

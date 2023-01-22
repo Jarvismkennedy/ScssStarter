@@ -1,0 +1,36 @@
+@use "../abstracts" as *;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  //colors
+  @each $color, $value in $neutral-colors {
+    --clr-neutral-#{$color}: #{$value};
+  }
+
+  @each $color, $value in $colors {
+    --clr-#{$color}: #{$value};
+  }
+  @each $color, $value in $brand-colors {
+    --clr-brand-#{$color}: #{$value};
+  }
+  // scale
+  --s0: #{$s0};
+  @for $i from 1 through $number-of-iterations {
+    --s#{$i}: calc(#{pow($ratio, $i)} * #{$s0});
+    --s-#{$i}: calc(#{pow($ratio, -$i)} * #{$s0});
+  }
+
+  font-family: $font-family;
+  @each $weight, $value in $font-weights {
+    --fw-#{$weight}: #{$value};
+  }
+
+  --measure: #{$measure};
+
+  --border-thin: var(--s-3);
+  --border-thick: var(--s-2);
+
+  --border-radius: var(--s-3);
+  --border-radius-large: var(--s-2);
+
+  --shadow-small: 0 var(--s-5) var(--s-3) 0 rgba(0, 0, 0, 0.2);
+}
