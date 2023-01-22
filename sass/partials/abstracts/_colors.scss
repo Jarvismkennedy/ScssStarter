@@ -1,51 +1,21 @@
-// $brand-colors: (
-//     primary-100: #00607a,
-//     primary-200: #005066,
-//     primary-300: #004052,
-//     primary-400: #00303d,
-//     primary-500: #002029,
-//     primary-dark: #2C3531,
-//     primary-orig: hsl(190, 21%, 28%),
-//     outline: #f79f79,
-//     accent: #cbf3f0,
-// );
-$brand-colors: (
-    dark: #2c3531,
-    primary: #116466,
-    accent-1: #ffcb9a,
-    accent-2: #d9b08c,
-    light: #d1e8e2,
-);
-$neutral-colors-dark: (
-    100: hsl(153, 9%, 20%),
-    200: hsl(153, 9%, 25%),
-    300: hsl(153, 9%, 35%),
-    400: hsl(153, 9%, 50%),
-    500: hsl(153, 9%, 75%),
-    600: hsl(153, 9%, 90%),
+$colors: (
+  primary: #c19bff,
+  secondary: #f6b2ff,
+  accent: #baebff,
+  success: #50fa7b,
+  warning: #f1fa8c,
+  danger: #ff5555,
 );
 
 $neutral-colors: (
-    100: hsl(0, 0%, 97%),
-    200: hsl(0, 0%, 90%),
-    300: hsl(0, 0%, 83%),
-    400: hsl(0, 0%, 50%),
-    500: hsl(0, 0%, 23%),
-    600: hsl(0, 0%, 12%),
-);
-
-$colors: (
-    success: #73c686,
-    warning: #ffd75e,
-    danger: #e87d87,
-    info: #d9edf7,
-    info-border: #bce8f1,
-    // d3category10
-    'blue': #1f77b4ff,
-    'red': #d62728ff,
-    'green': #2ca02cff,
-    'orange': #ff7f0eff,
-    'pink': #e377c2ff,
-    'purple': #9467bdff,
-    'aqua': #17becfff,
+  50: #faf9f7,
+  100: #e8e6e1,
+  200: #d3cec4,
+  300: #b8b2a7,
+  400: #a39e93,
+  500: #857f72,
+  600: #625d52,
+  700: #504a40,
+  800: #423d33,
+  900: #27241d,
 );

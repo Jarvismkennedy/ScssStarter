@@ -5,13 +5,10 @@
   @each $color, $value in $neutral-colors {
     --clr-neutral-#{$color}: #{$value};
   }
-
   @each $color, $value in $colors {
     --clr-#{$color}: #{$value};
   }
-  @each $color, $value in $brand-colors {
-    --clr-brand-#{$color}: #{$value};
-  }
+
   // scale
   --s0: #{$s0};
   @for $i from 1 through $number-of-iterations {
